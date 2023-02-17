@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="show">
+
+
+        <button class="press one" onclick="send()">
+            send
+                </button><button class="press  tow">
+            2
+                </button>
+                <button class="press three">
+                    3
+                </button>
+    <input type="text" class="numone">  
+    <input type="text" class="numtow">  
+    <input style="height: 30px;" type="text" class="show">  
+    <script>
+    let one = document.querySelector('.numone');
+    let tow   = document.querySelector('.numtow');
+    let screen = document.querySelector('.show');
+    function send(){
+      one.value;
+      tow.value;
+       screen= one.value+ tow.value;
+    }
+    send();
+    
+
+
+
+
+    </script>
+    <script>
+        /*
+        let btn =document.querySelectorAll('.press');
+        let btn1 =document.querySelector('.one');
+        let btn2 =document.querySelector('.one');
+        let btn3 =document.querySelector('.one');
+        let sree =document.querySelector('.screen');
+console.log(btn)
+        btn.addEventListener('click',()=>{
+            let btn=document.querySelectorAll('press');
+            let btn1 =document.querySelector('one');
+            let btn2 =document.querySelector('one');
+            let btn3 =document.querySelector('one');
+            let sree =document.querySelector('screen');
+            screen.push(btn.value);
+
+         
+
+        })*/
+    </script>
+    </form>
+</body>
+</html>
